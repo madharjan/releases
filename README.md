@@ -27,3 +27,6 @@ Refer to [Changelog](./outlook-mcp/changelogs.md) for changelogs for each releas
 
 Refer to [Setup Guide](./outlook-mcp/setup-guide.md) for setup instructions on how to install Outlook MCP.
 
+### User Guide
+
+Refer to [User Guide](./outlook-mcp/user-guide.md) to undestand how to use Outlook MCP.

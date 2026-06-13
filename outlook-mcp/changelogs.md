@@ -1,5 +1,11 @@
 # Changelogs
 
+## Outlook MCP v1.0.1
+
+- Update with new email tools and task management (Microsoft To Do) tools
+- Added 6 email tools: draft, send, conversation thread, attachments
+- Added 5 task tools: create, list, update, complete, delete
+
 ## Outlook MCP v1.0.0
 
 Initial release:

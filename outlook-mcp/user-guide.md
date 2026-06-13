@@ -46,18 +46,36 @@ Outlook MCP works the same way in any configured agent. Just ask naturally about
 
 Once configured, Outlook MCP gives your AI agent access to these capabilities:
 
-| Tool                 | What It Does                                                        |
-| -------------------- | ------------------------------------------------------------------- |
-| **Check Email**      | Retrieve recent emails from your Inbox (last hour, day, week, etc.) |
-| **Search Email**     | Find emails using keywords or sender/recipient filters              |
-| **Read Email**       | Get the full content and attachments of an email                    |
-| **List Folders**     | See all your email folders and mailboxes                            |
-| **Get Folder Info**  | Check folder details (name, item count, etc.)                       |
-| **Mark Read/Unread** | Change email read status                                            |
-| **Set Flag**         | Add follow-up flags to important emails                             |
-| **Move Email**       | Move emails to different folders                                    |
-| **Delete Email**     | Soft-delete emails to your Deleted Items folder                     |
-| **List Mailboxes**   | See all MAPI mailboxes you have access to                           |
+| Tool                      | What It Does                                                         |
+| ------------------------- | -------------------------------------------------------------------- |
+| **Check Email**           | Retrieve recent emails from your Inbox (last hour, day, week, etc.)  |
+| **Search Email**          | Find emails using keywords or sender/recipient filters               |
+| **Read Email**            | Get the full content and attachments of an email                     |
+| **Draft Email**           | Compose and save an email draft without sending                      |
+| **Send Email**            | Send a new email or dispatch a saved draft                           |
+| **Get Flagged Emails**    | List emails flagged for follow-up with optional date range filter    |
+| **Get Conversation**      | Retrieve all emails in a conversation thread                         |
+| **Download Attachment**   | Save an email attachment to your computer                            |
+| **Mark Read/Unread**      | Change email read status                                             |
+| **Set Flag**              | Add follow-up flags to important emails                              |
+| **Move Email**            | Move emails to different folders                                     |
+| **Delete Email**          | Soft-delete emails to your Deleted Items folder                      |
+| **Flush Outbox**          | Trigger Send/Receive to dispatch emails stuck in the Outbox          |
+| **List Mailboxes**        | See all MAPI mailboxes you have access to                            |
+| **List Folders**          | See all your email folders and mailboxes                             |
+| **Get Folder Info**       | Check folder details (name, item count, etc.)                        |
+
+## Available Task Tools
+
+Outlook MCP also gives your AI agent access to your Outlook Tasks:
+
+| Tool                   | What It Does                                                      |
+| ---------------------- | ----------------------------------------------------------------- |
+| **Create Task**        | Create a new task with title, priority, status, and due date      |
+| **Get Tasks**          | List tasks with optional status and due date range filters        |
+| **Update Task**        | Update task subject, priority, status, or due date                |
+| **Mark Task Complete** | Mark a task as completed                                          |
+| **Delete Task**        | Delete a task from your Tasks folder                              |
 
 ## Understanding Logs (For Troubleshooting)
 

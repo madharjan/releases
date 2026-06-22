@@ -1,5 +1,12 @@
 # Changelogs
 
+## Outlook MCP v1.0.2
+
+- Added 4 calendar tools: get_event, create_event, search_events, delete_event
+- Calendar events include attendees, organizer, recurrence, and reminder details
+- search_events supports date range listing and title keyword search (query or start_date required)
+- Refactored tool handlers into tools/ module (email, tasks, calendar, folders)
+
 ## Outlook MCP v1.0.1
 
 - Update with new email tools and task management (Microsoft To Do) tools

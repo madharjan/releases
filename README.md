@@ -2,9 +2,9 @@
 
 This repository is a releases and issue management system for the cr8lab projects. It manages releases and changelogs for the following projects:
 
-- **outlook-mcp**
+- outlook-mcp
 
-This repository does not contain source code. It only consist of documentation (setup & user guides) and changelogs.
+This repository does not contain source code. It only consists of documentation (setup & user guides) and changelogs.
 
 ## Outlook MCP
 
@@ -15,13 +15,13 @@ Key features:
 
 - Runs entirely locally on Windows via direct COM access
 - Launches Outlook headless if not already running
-- 10 tools: check, search, read, flag, move, delete email and more
+- 25 tools for email, tasks, and calendar management
 - Built-in configurator for Claude Desktop, Claude Code, GitHub Copilot, and more
 - Compiles to a standalone Windows executable via Nuitka (no Python on target machine)
 
 ### Changelog
 
-Refer to [Changelog](./outlook-mcp/changelogs.md) for changelogs for each releases.
+Refer to [Changelog](./outlook-mcp/changelogs.md) for changelogs for each release.
 
 ### Setup Guide
 
@@ -29,4 +29,4 @@ Refer to [Setup Guide](./outlook-mcp/setup-guide.md) for setup instructions on h
 
 ### User Guide
 
-Refer to [User Guide](./outlook-mcp/user-guide.md) to undestand how to use Outlook MCP.
+Refer to [User Guide](./outlook-mcp/user-guide.md) to understand how to use Outlook MCP.

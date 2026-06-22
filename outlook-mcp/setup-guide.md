@@ -1,10 +1,12 @@
 # Outlook MCP Setup Guide for Windows
 
-**Outlook MCP** gives AI agents like Claude and GitHub Copilot direct access to your Microsoft Outlook emails. No IT admin approval needed—it runs entirely on your computer using your existing Outlook installation.
+**Outlook MCP** gives AI agents like Claude and GitHub Copilot direct access to your Microsoft Outlook emails, tasks, calendar events, and folders. No IT admin approval needed—it runs entirely on your computer using your existing Outlook installation.
 
 ## What You'll Get
 
 After installation, you can use AI agents to:
+
+**Email Management:**
 
 - **Check emails** from your Inbox (filtered by time period)
 - **Search emails** across your mailbox
@@ -12,6 +14,29 @@ After installation, you can use AI agents to:
 - **Flag, mark as read, and organize** emails
 - **Move and delete** emails
 - **List folders and mailboxes** you have access to
+
+**Task Management:**
+
+- **Create, update, and manage** tasks with priorities and due dates
+- **List and filter** tasks by status and date range
+- **Mark tasks complete** and delete tasks
+- **Organize your to-do list** with Outlook Tasks
+
+**Calendar and Meeting Management:**
+
+- **View calendar events** with full details and attendees
+- **Schedule events** and create calendar entries
+- **Search and list** events by date range
+- **Manage recurring events** (create, update, delete series)
+- **Check availability** and detect scheduling conflicts
+- **Send meeting invites** to attendees
+- **Respond to meeting requests** (accept, decline, tentatively accept)
+
+**Folder Organization:**
+
+- **Create, rename, and move** folders for better email organization
+- **Manage folder structure** across your mailboxes
+- **Soft-delete folders** to maintain a clean inbox
 
 ## Prerequisites
 
@@ -106,7 +131,7 @@ Select the agents you use, then click "Next" to auto-configure them.
 
 Ready to use Outlook MCP? See the **[User Guide](./user-guide.md)** for:
 
-- How to ask Claude and other agents about your emails
+- How to ask Claude and other agents about your emails, tasks, calendar, and folders
 - Available tools and capabilities
 - Tips and examples for each agent
 
@@ -176,17 +201,17 @@ outlook-mcp.exe --agent-interactive
 
 Visit the [GitHub repository](https://github.com/madharjan/releases) for detailed documentation, issues, and support.
 
-## What's New
-
-Check the [Changelog](./changelogs.md) for version history and latest features.
-
 ## Next Steps
 
 1. **Restart your AI Agent** (The installer cannot do this for you)
 2. **Open your AI agent** (Claude Desktop, Claude Code, or Copilot)
-3. **Try asking about your emails**: _"What emails did I get in the last hour?"_
+3. **Try asking about your emails, tasks, and calendar**: _"What emails did I get in the last hour? Do I have any meetings today?"_
 
 That's it! You're ready to use Outlook MCP.
+
+## What's New
+
+Check the [Changelog](./changelogs.md) for version history and latest features.
 
 ## Learn More
 

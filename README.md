@@ -15,9 +15,13 @@ Key features:
 
 - Runs entirely locally on Windows via direct COM access
 - Launches Outlook headless if not already running
-- 25 tools for email, tasks, and calendar management
+- 36 tools for email, tasks, calendar, and folder management (v1.0.2+)
 - Built-in configurator for Claude Desktop, Claude Code, GitHub Copilot, and more
 - Compiles to a standalone Windows executable via Nuitka (no Python on target machine)
+- 11 calendar tools including event management, recurring events, and meeting invites
+- Free/busy availability checking and scheduling conflict detection
+- Meeting invite responses (accept, decline, tentatively accept)
+- 4 folder management tools for creating, renaming, moving, and deleting folders
 
 ### Changelog
 
